@@ -1,5 +1,5 @@
 ## How to Run the application in Docker:
-1. Go to the path `Flask_website`
+1. Choose the project path.
 2. Type command `docker build --tag resume-flask-docker .`
 3. Type command `docker run -d -p 5001:5000 resume-flask-docker`
 4. Access from the host's browser: http://localhost:5001
